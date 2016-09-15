@@ -39,7 +39,7 @@
               </div>
             </div>
             <div class="row">
-            <p><center><a href="#">Contactenos</a> <p class="footertext">Copyright 2016</p></center></p>
+            <p><center><a href="contactenos.jsp">Contactenos</a> <p class="footertext">Copyright 2016</p></center></p>
         </div>
     </div>
 </div>	

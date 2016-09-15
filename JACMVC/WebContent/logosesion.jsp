@@ -2,6 +2,7 @@
  <%@ page import="java.sql.ResultSet"%>
 <jsp:useBean id="p" class="modelo.Afiliado" scope="page" />
 <jsp:useBean id="cx" class="modelo.Conectar" scope="page" />
+<% HttpSession sesionOK = request.getSession(); %>
 
 
 <head>
@@ -14,10 +15,24 @@
 <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
 <script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
 </head>
-	<div id="contenedor">
-		<div id="caja1">Caja 1</div>
-		<div id="caja2">Caja 2</div>
-		<div id="caja3">Caja 3</div>
-		<div id="caja4">Caja 4</div>
+	<div class="contenedor">
+		<div class="logo">
+			<h2>JACK</h2>
+				Trabajando unidos en Comunidad
+		</div>
+		
+		<div class="logobta">
+			<img alt="bogota" src="bootstrap/img/bogota.jpg" width="100%" height="60%"">
+		</div>
+		
+		<div class="usuario">
+			<h3>Bienvenido:</h3>
+				<%=sesionOK.getAttribute("usuario") %>
+		</div>
+		
+		<div class="cierresesion">
+			<h3>Cerrar Sesión</h3>
+		</div>
+		<div class="ajustar"></div>
 	</div>
 	
