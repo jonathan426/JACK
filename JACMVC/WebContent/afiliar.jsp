@@ -9,6 +9,7 @@
 <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
 <script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
 </head>
+	<body>
 		<form action="cAfiliados" method="post">
 			<div class="IBContenedorIzq">
 					<div class="TextInfo">
@@ -174,3 +175,4 @@
 				</div>
 							   
 		</form>
+		</body>
