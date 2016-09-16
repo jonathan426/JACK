@@ -154,7 +154,7 @@
 							
 							<div class="TituloCampoIb">
 								<span class="Asterisk">*</span>
-								<b>Teléfono Mòvil:</b>
+								<b>Teléfono Móvil:</b>
 							</div>
 							<div class="ContenedorCampoIb">
 								<input name="Num_cel" type="text" id="txttel_movil" class="TextboxIb" value="<%=busuario.getMovil()%>">
@@ -165,4 +165,3 @@
 				</div>
 							   
 		</form>
-		
