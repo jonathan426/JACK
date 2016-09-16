@@ -1,3 +1,3 @@
 # proyecto
 
-se crea primera version del preoyecto
+se realiza modificaciones en el formulario de afiliar
